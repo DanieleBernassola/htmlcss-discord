@@ -78,12 +78,10 @@ p{
 
 .col-33{
     width: calc(100% / 6 * 2);
-    height: 350px;
 }
 
 .col-17{
     width: calc(100% / 6);
-    height: 350px;
 }
 
 .col-mini{
@@ -105,8 +103,8 @@ p{
     padding-bottom: 20px;
 }
 
-.mb-1{
-    margin-bottom: 1px;
+.bt-1{
+    border-top: 1px solid white;
 }
 
 .pt-20{
@@ -120,6 +118,10 @@ p{
 .my-20{
     margin: 20px 0;
 }
+
+.mt-30{
+    margin-top: 30px;
+}
 /* FINE UTILITY PADDING E MARGIN*/
 /* INIZIO UTILITY VARIE */
 .text-white{
@@ -128,6 +130,11 @@ p{
 
 .text-black{
     color: rgb(30, 30, 30);
+}
+
+.text-footer{
+    color: #445099;
+    font-weight: 800;
 }
 
 .decoration-none{
@@ -152,6 +159,36 @@ p{
 .btn-blue{
     background-color: rgb(128, 128, 255);
     color: white;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-instagram{
+    color: white;
+}
+
+.fa-twitter{
+    color: white;
+}
+
+.fa-youtube{
+    color: white;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.link-footer{
+    display: block;
+    padding: 5px 0;
 }
 /* FINE UTILITY VARIE */
 /* INIZIO UTILITY FLEX */
@@ -190,10 +227,6 @@ p{
 .space-between{
     justify-content: space-between;
 }
-
-.border-dashed{
-    border: 2px dotted black;
-}
 /* FINE UTILITY FLEX */
 /* INIZIO UTILITY BACKGROUND */
 .bg-main{
@@ -208,32 +241,8 @@ p{
     background-position: top center;
 }
 
-.bg-orange{
-    background-color: orange;
-}
-
-.bg-blue{
-    background-color: blue;
-}
-
-.bg-violet{
-    background-color: violet;
-}
-
-.bg-lightblue{
-    background-color: rgb(86, 154, 255);
-}
-
-.bg-pink{
-    background-color: pink;
-}
-
 .bg-lightgray{
     background-color: lightgray;
-}
-
-.bg-green{
-    background-color: green;
 }
 
 .bg-black{
