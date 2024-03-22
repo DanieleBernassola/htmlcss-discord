@@ -74,7 +74,6 @@ p{
 
 .col-40{
     width: 40%;
-    height: 250px;
 }
 
 .col-100-high{
@@ -126,6 +125,10 @@ p{
 /* INIZIO UTILITY VARIE */
 .text-white{
     color: white;
+}
+
+.text-black{
+    color: rgb(30, 30, 30);
 }
 
 .decoration-none{
