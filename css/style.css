@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(156, 217, 255);
+    padding: 10px 0;
+}
+
+footer{
+    background-color: lightcyan;
+}
+
+/* INIZIO LAYOUT */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container-short{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.col-25-short{
+    width: 25%;
+    padding: 5px 0;
+}
+
+.col-50{
+    width: 50%;
+    padding: 5px 0;
+}
+
+.col-100{
+    width: 100%;
+    height: 250px;
+}
+
+.col-60{
+    width: 60%;
+    height: 250px;
+}
+
+.col-40{
+    width: 40%;
+    height: 250px;
+}
+
+.col-100-high{
+    width: 100%;
+    height: 500px;
+}
+
+.col-33{
+    width: calc(100% / 6 * 2);
+    height: 350px;
+}
+
+.col-17{
+    width: calc(100% / 6);
+    height: 350px;
+}
+
+.col-mini{
+    font-size: 15px;
+    padding: 5px;
+}
+
+/* FINE LAYOUT */
+
+/* INIZIO UTILITY */
+/* INIZIO UTILITY PADDING E MARGIN*/
+.py-20{
+    padding: 20px 0;
+}
+
+.pt-5{
+    padding-top: 5px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.mb-1{
+    margin-bottom: 1px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+/* FINE UTILITY PADDING E MARGIN*/
+/* INIZIO UTILITY FLEX */
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-start{
+    justify-content: flex-start;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.border-dashed{
+    border: 2px dotted black;
+}
+/* FINE UTILITY FLEX */
+/* INIZIO UTILITY BG-COLOR */
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-violet{
+    background-color: violet;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-lightblue{
+    background-color: rgb(86, 154, 255);
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-lightgray{
+    background-color: lightgray;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-black{
+    background-color: rgb(43, 43, 43);
+}
+
+.bg-salmon{
+    background-color: salmon;
+}
+
+.bg-cyan{
+    background-color: cyan;
+}
+
+.bg-lightcyan{
+    background-color: rgb(129, 255, 255);
+}
+/* FINE UTILITY BG-COLOR*/
+/* FINE UTILITY */
