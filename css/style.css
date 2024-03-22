@@ -212,18 +212,6 @@ p{
     text-align: right;
 }
 
-/* .justify-start{
-    justify-content: flex-start;
-}
-
-.justify-center{
-    justify-content: center;
-}
-
-.justify-end{
-    justify-content: flex-end;
-} */
-
 .space-between{
     justify-content: space-between;
 }
@@ -247,18 +235,6 @@ p{
 
 .bg-black{
     background-color: rgb(43, 43, 43);
-}
-
-.bg-salmon{
-    background-color: salmon;
-}
-
-.bg-cyan{
-    background-color: cyan;
-}
-
-.bg-lightcyan{
-    background-color: rgb(129, 255, 255);
 }
 /* FINE UTILITY BG-COLOR*/
 /* FINE UTILITY */
